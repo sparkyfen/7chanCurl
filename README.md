@@ -3,7 +3,7 @@ This php application will query 7chan.org and in theory, after the user's input 
 Afterwards, it will save them to their own folder within this applications folder.
 
 Requirements:
-sudo apt-get install php5-curl
+sudo apt-get/yum install php5-curl php5-cli
 
 Webbots Spiders and Screen Scrapers Library (http://webbotsspidersscreenscrapers.com/DSP_download.php)
 
@@ -19,15 +19,15 @@ The application takes a while to build the array and parse it out, escpecially i
 
 Things to do:
 
-Fix PHP warning when querying every odd index (odd indexes are null after array_unique call).
+[FIXED] Fix PHP warning when querying every odd index (odd indexes are null after array_unique call).
 
-Add functionality for ALL boards.
+[FIXED] Add functionality for ALL boards.
 
 Error check user input for board names.
 
-Correct coding to verify, with each board, that the thread ID number is the correct length.
+[FIXED] Correct coding to verify, with each board, that the thread ID number is the correct length.
 
-Query comments of users for relevant links.
+[FIXED] Query comments of users for relevant links.
 
 Requery pages every n seconds.
 
