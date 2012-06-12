@@ -19,6 +19,8 @@ The application takes a while to build the array and parse it out, escpecially i
 
 Things to do:
 
+Fix issue when user breaks application mid-way through download and after restarting application, it will skip over all missing images in the folder it was halted on.
+
 [FIXED] Fix PHP warning when querying every odd index (odd indexes are null after array_unique call).
 
 [FIXED] Add functionality for ALL boards.
